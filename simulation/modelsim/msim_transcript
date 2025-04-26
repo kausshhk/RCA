@@ -1,0 +1,60 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do RCA_4bit_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit {C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:00:42 on Nov 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit" C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/full_adder.sv 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 09:00:42 on Nov 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit {C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA_4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:00:42 on Nov 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit" C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA_4.sv 
+# -- Compiling module RCA_4
+# 
+# Top level modules:
+# 	RCA_4
+# End time: 09:00:42 on Nov 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit {C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA4_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:00:42 on Nov 24,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit" C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA4_tb.sv 
+# -- Compiling module RCA4_tb
+# 
+# Top level modules:
+# 	RCA4_tb
+# End time: 09:00:42 on Nov 24,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  RCA4_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" RCA4_tb 
+# Start time: 09:00:42 on Nov 24,2023
+# Loading sv_std.std
+# Loading work.RCA4_tb
+# Loading work.RCA_4
+# Loading work.full_adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 09:07:02 on Nov 24,2023, Elapsed time: 0:06:20
+# Errors: 0, Warnings: 0

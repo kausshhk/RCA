@@ -1,0 +1,87 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/simulation/modelsim
+vfull_adder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1700796642
+!i10b 1
+!s100 GdF=:5;KM;DQh?LUDh7O?3
+IS7SJa2GVGX]2EF;XEd_zB2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 full_adder_sv_unit
+S1
+R0
+w1700732159
+8C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/full_adder.sv
+FC:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/full_adder.sv
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1700796642.000000
+!s107 C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit|C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/full_adder.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit
+Z8 tCvgOpt 0
+vRCA4_tb
+R1
+R2
+!i10b 1
+!s100 Nf36?G[NcNba]XL7TNehQ1
+IUz^R5PUaM;GXKo?LZPYcz1
+R3
+!s105 RCA4_tb_sv_unit
+S1
+R0
+w1700796547
+8C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA4_tb.sv
+FC:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA4_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA4_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit|C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA4_tb.sv|
+!i113 1
+R6
+R7
+R8
+n@r@c@a4_tb
+vRCA_4
+R1
+R2
+!i10b 1
+!s100 H1gBFm3Mm`61_a2E;zBcB1
+IBDiCfAYW881<fhc0:0PdE3
+R3
+!s105 RCA_4_sv_unit
+S1
+R0
+w1700738839
+8C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA_4.sv
+FC:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA_4.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA_4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit|C:/Users/Kaushik/OneDrive/Desktop/RCA_4bit/RCA_4.sv|
+!i113 1
+R6
+R7
+R8
+n@r@c@a_4
